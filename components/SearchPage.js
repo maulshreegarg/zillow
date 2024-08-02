@@ -3,7 +3,7 @@ export default function Search()
 {
     return (
         <slug className={classes.slug}>
-            <p>hello mate </p>
+            <p>   <input type="text" placeholder="Address, neighborhood, city, ZIP" classnAME="styled-input"/> </p>
         </slug>
     );
 }
