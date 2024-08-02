@@ -9,19 +9,19 @@ export default function Header(){
     <nav className={classes.nav}>
         <ul>
             <li>
-                <Link href="/">Buy</Link>
+                <Link href="/buy">Buy</Link>
             </li>
             <li>
-                <Link href="/">Rent</Link>
+                <Link href="/rent">Rent</Link>
             </li>
             <li>
-                <Link href="/">Sell</Link>
+                <Link href="/sell">Sell</Link>
             </li>
             <li>
-                <Link href="/">Home Loans</Link>
+                <Link href="/homeloans">Home Loans</Link>
             </li>
             <li>
-                <Link href="/">Find an Agent</Link>
+                <Link href="/agent">Find an Agent</Link>
             </li>
         </ul>
         </nav>
