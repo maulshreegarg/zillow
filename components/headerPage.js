@@ -25,20 +25,20 @@ export default function Header(){
             </li>
         </ul>
         </nav>
-    <Image className={classes.logoimg} src={logoimg}/>
+    <Link href='/'><Image className={classes.logoimg} src={logoimg}/></Link>
     <nav className={classes.nav}>
     <ul>
             <li>
-                <Link href="/">Manage rentals</Link>
+                <Link href="/rentals">Manage rentals</Link>
             </li>
             <li>
-                <Link href="/">Advertise</Link>
+                <Link href="/advertise">Advertise</Link>
             </li>
             <li>
-                <Link href="/">Help</Link>
+                <Link href="/help">Help</Link>
             </li>
             <li>
-                <Link href="/">Sign in</Link>
+                <Link href="/signin">Sign in</Link>
             </li>
         </ul>
  </nav>

@@ -3,7 +3,9 @@ export default function Search()
 {
     return (
         <slug className={classes.slug}>
-            <p>   <input type="text" placeholder="Address, neighborhood, city, ZIP" classnAME="styled-input"/> </p>
+          <div>
+      <input className={classes.styledInput} type="text" placeholder="Address, neighborhood, city, ZIP" />
+    </div>
         </slug>
     );
 }
