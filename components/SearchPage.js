@@ -5,10 +5,8 @@ export default function Search()
     
     return (
         <slug className={classes.slug}>
-            <hr/>
-          <div className={classes.styledInput}>
-      <input  type="text" placeholder="Address, neighborhood, city, ZIP" />
-    </div>
+            <hr className="styledHr" />
+      <input className={classes.styledInput} type="text" placeholder="Address, neighborhood, city, ZIP" />
         </slug>
     );
 }
