@@ -5,7 +5,14 @@ export default function Search()
     
     return (
         <slug>
-      <input className={classes.styledInput} type="text" placeholder="Entert an Address, neighborhood, city, or ZIP                                                      ⌕" />
+          <div className="section1">
+            <h1 className={classes.head}>
+              Agents. Tours.<br/>
+              Loans. Homes.
+            </h1>
+      <input className={classes.styledInput} type="text" placeholder="Entert an Address, Neighborhood, City, or ZIP                                                      ⌕" />
+      </div>
+      <div></div>
         </slug>
     );
 }
