@@ -1,20 +1,21 @@
 
 .styledInput::placeholder {
-    border-color: #26baff;
-    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+    border-color: #000000;
+    box-shadow: 0 0 8px rgba(116, 116, 116, 0.6);
+    color:#000000;
   }
   
 .styled-input:focus {
-    outline: none;
-    border-color: #66afe9;
+    outline: blue;
+    border-color: #3179ff;
     box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
 }
 .styledInput {
     padding: 0.5rem;
-    border: 1px solid #8b8a8a;
+    border: 1px solid #4d4d4d;
     border-radius: 4px;
     width: 40%;
     box-sizing: border-box;
+  
   }
 
-  

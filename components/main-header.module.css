@@ -15,12 +15,12 @@
   .nav ul {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0.75rem;
     display: flex;
     gap: 0.5rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.0rem;
-    color: black;
+    font-family: gstatic;
+    font-size: 1.10rem;
+    color: rgb(56, 55, 55);
   }
   
   .nav a {
@@ -52,7 +52,7 @@
     gap: 0.5rem;
     color: #222222;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: garamond;
     letter-spacing: 0.15rem;
     font-size: 0.6rem;
   }
