@@ -1,3 +1,7 @@
+.cont {
+  position:relative;
+}
+
 .section1 {
   display: flex;
   flex-direction: column;
@@ -5,35 +9,43 @@
   align-items: center;
   text-align: center;
   height: 100vh; 
+  position: absolute;
+  z-index: 0;
 }
 
+.realest{
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
 .head {
   font-size: 3rem; 
   margin-left: 2rem; 
   margin-bottom:2rem;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: BOLD;
-  color: rgb(6, 117, 214);
+  color: rgb(255, 255, 255);
+}
+
+.styledInput {
+  padding: 0.5rem;
+  border: 1px solid #4d4d4d;
+  border-radius: 4px;
+  width: 40%;
+  box-sizing: border-box;
+  margin-left: 2rem;
+}
+
+.styledInput:focus {
+  outline: blue;
+  border-color: #3179ff;
+  box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+  box-sizing: border-box;
 }
 
 .styledInput::placeholder {
-    border-color: #000000;
-    box-shadow: 0 0 8px rgba(116, 116, 116, 0.6);
-    color:#232222;
-  }
-  
-.styled-input:focus {
-    outline: blue;
-    border-color: #3179ff;
-    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
-    box-sizing: border-box;
-}
-.styledInput {
-    padding: 0.5rem;
-    border: 1px solid #4d4d4d;
-    border-radius: 4px;
-    width: 40%;
-    box-sizing: border-box;
-    margin-left: 2rem; 
-  }
+  border-color: #000000;
+  box-shadow: 0 0 8px rgba(116, 116, 116, 0.6);
+  color: #232222;
 
+}
